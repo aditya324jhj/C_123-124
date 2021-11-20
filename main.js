@@ -13,7 +13,7 @@ function setup(){
 function draw(){    
     resizeCanvas(520,480, true);
     background('rgba(103,143,195,255)');
- 
+    document.getElementById("square_side").innerHTML = "Width And Height of a Square will be = " + difference + "px";
     textSize(difference);
     fill('#F90093');
     text('Peter',50,400)
